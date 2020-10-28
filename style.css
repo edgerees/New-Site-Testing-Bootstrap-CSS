@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+body
+{
+    font-family: sans-serif;
+}
+
+#navbar1 {
+    position:sticky;
+    top: 0;
+    z-index:10;
+}
+.navbar {
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(14, 58, 255));
+    padding: 0 !important;
+
+}
+.navbar-brand img {
+    height: 75px;
+    padding-left: 20px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: #ffffff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+
+}
+
+#banner {
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(14, 58, 255));
+    color: rgb(0, 0, 0);
+    padding-top: 5%;
+}
+
+.promo {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
